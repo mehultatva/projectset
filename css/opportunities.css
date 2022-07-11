@@ -1,0 +1,18 @@
+.opportunities-page-wrapper .master-layout-grid-wrapper.project-page-wrapper .master-layout-right-column { margin-top: 40px;} 
+.row-wrapper .row-wrapper-heading { color: #747272; padding-left: 24px; }
+.master-layout-right-column .grey-card+.grey-card { margin-top: 40px; }
+.btn.has-white-bg { background: #fff; }
+.btn.has-white-bg:hover { background-color: #18009E; border-color: #18009E; }
+.right-col .settings-btn { display: block; height: 24px; width: 24px; }
+.master-layout-wrapper .title-wrapper.has-right-col.has-settings-btn .right-col { margin-top: 0;}
+
+@media screen and (max-width:991px) {
+    .master-layout-wrapper .title-wrapper.has-right-col.has-settings-btn {flex-direction: inherit; align-items: center;}
+    .opportunities-page-wrapper .master-layout-grid-wrapper.project-page-wrapper .master-layout-right-column { margin-top: 0;} 
+}
+@media screen and (max-width:767px) {
+    .grey-card-wrapper h2 { padding: 0; }
+}
+@media screen and (max-width: 425px) {
+    .master-layout-wrapper .title-wrapper.has-right-col.has-settings-btn .right-col { width: inherit;}
+}

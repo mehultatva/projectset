@@ -1,0 +1,40 @@
+.network-list-wrapper { padding: 17px 0 0; }
+.network-profile.white-card .card-body { padding: 20px 15px 20px 12px; }
+.notification-listing { display: flex; align-items: center; }
+.network-profile + .network-profile { margin-top: 15px; }
+.notification-listing .notification-listing-left { flex: 1; padding-right: 15px; }
+.notification-listing .notification-listing-right { flex: 0 0 70px; max-width: 70px; }
+.notify-listing { display: flex; justify-content: flex-end; }
+.notify-listing li + li { margin-left: 20px; }
+.notification-link .off, .notify-off.notification-link .on { display: none; }
+.notification-link .on, .notify-off.notification-link .off { display: inline-block; }
+.notification-detail { display: inline-flex; }
+.notification-detail .profile-content .profile-name { display: block; font-size: 14px; color: #2F64FF; font-weight: 700; }
+.notification-detail .profile-content span { font-size: 12px; color: #1B2125; font-weight: 400; }
+.notification-detail .two-text-wrap { display: flex; margin: 0 -5px; }
+.notification-detail .two-text-wrap span { flex: 0 0 50%; max-width: 50%; padding: 0 5px; }
+.notification-list .notification-list-inner + .notification-list-inner { margin-top: 25px; }
+.join-more-block { padding: 50px 0 0; }
+.join-more-block .join-title-block { padding: 0 25px 5px; display: flex; align-items: center; justify-content: space-between; }
+.join-more-block .join-title-block h2 { color: #747272; margin-bottom: 0; }
+.join-more-block .white-card .card-blue-title { margin: 0; flex: 1; }
+.join-more-block .white-card .card-body .duration-link-list { justify-content: flex-end; }
+.white-card .card-body .members { margin-bottom: 10px; display: block; }
+.white-card .card-body .members em { padding-right: 7px; position: relative; top: -1px; }
+
+@media (max-width:1199px) {
+    .notification-list .notification-list-inner + .notification-list-inner { margin-top: 15px; }
+    .join-more-block { padding: 40px 0 0; }
+    .join-more-block .join-title-block { padding: 0 16px 5px; }
+    .notification-detail .two-text-wrap { display: block; }
+    .notification-detail .two-text-wrap span { flex: auto; max-width: inherit; }
+}
+@media (max-width:991px) {
+    .notification-detail .two-text-wrap { display: flex; }
+    .notification-detail .two-text-wrap span { flex: 0 0 50%; max-width: 50%; }
+}
+@media (max-width:767px) {
+    .notification-listing { align-items: flex-start; }
+    .join-more-block { padding: 30px 0 0; }
+    .join-more-block .white-card { margin-bottom: 20px; }
+}

@@ -1,0 +1,25 @@
+.register-login-wrapper { padding: 60px 0; position: relative; }
+.register-login-wrapper .banner-image { position: absolute; height: 100%; width: 100%; z-index: -1; top: 0; }
+.register-login-wrapper .banner-image img { height: 100%; width: 100%; object-fit: cover; }
+.register-login-wrapper .register-login-outer-wrapper { border-radius: 12px; max-width: 600px; margin: 0 auto; background-color: #F5F5F5; padding: 40px 0; box-shadow: 1px 1px 6px #00000073; }
+.register-login-wrapper .register-login-outer-wrapper .register-login-content-wrapper { max-width: 368px; margin: 0 auto; }
+.register-login-wrapper .register-login-outer-wrapper p { font-weight: 600; margin-bottom: 5px; }
+.register-login-wrapper .register-login-outer-wrapper .register-login-content-wrapper .form-wrapper { margin-top: 38px; }
+.register-login-wrapper .register-login-outer-wrapper .account-link-wrapper { text-align: center; font-weight: 600; }
+.register-login-wrapper .register-login-outer-wrapper .checkbox-outer-wrapper { margin-bottom: 40px; }
+.register-login-wrapper .register-login-outer-wrapper .register-login-content-wrapper .title-wrapper { text-align: center; }
+.register-login-wrapper .register-login-outer-wrapper .btn-wrapper.form-group { margin-bottom: 14px; }
+.register-login-wrapper .register-login-outer-wrapper .btn-wrapper .btn { min-width: 200px; }
+.login-wrapper.register-login-wrapper .register-login-outer-wrapper .checkbox-outer-wrapper { position: relative; margin-bottom: 34px; }
+.login-wrapper.register-login-wrapper .register-login-outer-wrapper .btn-wrapper.form-group { margin-bottom: 14px; }
+.login-wrapper.register-login-wrapper .register-login-outer-wrapper .checkbox-outer-wrapper .forgot-password { position: absolute; right: 0; top: 16%; }
+.login-wrapper.register-login-wrapper .register-login-outer-wrapper .checkbox-outer-wrapper .forgot-password a { font-weight: 600; }
+@media(max-width:767px) {
+    .register-login-wrapper .register-login-outer-wrapper .register-login-content-wrapper .form-wrapper { margin-top: 25px; }
+    .register-login-wrapper { padding: 40px 0; }
+    .register-login-wrapper .register-login-outer-wrapper { padding: 20px 15px; }
+    .login-wrapper.register-login-wrapper .register-login-outer-wrapper .checkbox-outer-wrapper { margin-bottom: 50px; }
+    .login-wrapper.register-login-wrapper .register-login-outer-wrapper .checkbox-outer-wrapper .forgot-password { top: auto; left: 0; bottom: -27px; }
+}
+
+

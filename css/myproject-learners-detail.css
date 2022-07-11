@@ -1,0 +1,838 @@
+.grey-card.myproject-learners-detail {
+    padding: 27px 24px 24px;
+    border-radius: 20px;
+}
+
+.grey-card.myproject-learners-detail .back-link {
+    font-size: 14px;
+    line-height: 1.43;
+    font-weight: 600;
+    color: #2F64FF;
+    margin-bottom: 30px;
+}
+
+.grey-card.myproject-learners-detail .back-link em.icon {
+    width: 16px;
+    margin-right: 6px;
+    margin-bottom: 0px;
+}
+
+.grey-card.myproject-learners-detail .organizers-team-wrapper .title-wrapper {
+    margin-bottom: 24px;
+    padding-left: 0;
+    transition: all 0.3s;
+}
+
+.grey-card.myproject-learners-detail .organizers-team-wrapper .title-wrapper h3 {
+    margin: 0 15px 0 15px;
+    line-height: 1.6;
+    color: #373737;
+    display: inline-block;
+}
+
+.grey-card.myproject-learners-detail .organizers-team-wrapper .title-wrapper .arrow-link {
+    display: flex;
+    align-items: center;
+}
+
+.grey-card.myproject-learners-detail .organizers-team-wrapper .title-wrapper .more-actions-link {
+    padding: 0 3px;
+    position: relative;
+    z-index: 3;
+}
+
+.grey-card.myproject-learners-detail .organizers-team-wrapper .title-wrapper .more-actions-link em svg {
+    width: 7px;
+    transition: all 0.3s;
+}
+
+
+
+.grey-card.myproject-learners-detail .custom-accordion-wrapper .custom-accordion-title .arrow-link em {
+    transition: all 0.3s;
+}
+
+.grey-card.myproject-learners-detail .custom-accordion-wrapper.is-open .custom-accordion-title .arrow-link em {
+    transform: rotate(180deg);
+}
+
+.grey-card.myproject-learners-detail .custom-accordion-wrapper:not(:last-of-type),
+.grey-card.myproject-learners-detail .custom-accordion-wrapper.submissions-block:not(:last-of-type) {
+    margin-bottom: 35px;
+}
+
+
+.grey-card.myproject-learners-detail .custom-accordion-wrapper.submissions-block.is-open:not(:last-of-type) {
+    margin-bottom: 60px;
+}
+
+.grey-card.myproject-learners-detail table.dataTable thead th {
+    font-size: 12px;
+    line-height: 1.67;
+    color: #747272;
+    border-bottom: 1px solid #b9b8b8;
+}
+
+.grey-card.myproject-learners-detail table.dataTable tbody td {
+    font-size: 14px;
+    line-height: 1.43;
+    color: #373737;
+}
+
+.grey-card.myproject-learners-detail .table-wrapper {
+    padding: 0 8px 12px;
+}
+
+.grey-card.myproject-learners-detail table.dataTable th {
+    padding: 20px 8px 7px;
+}
+
+.grey-card.myproject-learners-detail table.dataTable td {
+    padding: 20px 8px;
+}
+
+.grey-card.myproject-learners-detail table.dataTable.no-footer {
+    border-bottom: 0;
+    width: 100% !important;
+}
+.grey-card.myproject-learners-detail .custom-accordion-wrapper table.dataTable .table-actions{
+    width: 84px !important;
+    box-sizing: border-box !important;
+}
+.grey-card.myproject-learners-detail table.dataTable.team-listing-table .table-actions{
+    width: 200px !important;
+    box-sizing: border-box !important;
+}
+
+.grey-card.myproject-learners-detail table.dataTable .name-col{
+    width: 24% !important;
+    box-sizing: border-box !important;
+}
+.grey-card.myproject-learners-detail table.dataTable .title-col{
+    min-width: 260px !important;
+    box-sizing: border-box !important;
+}
+.grey-card.myproject-learners-detail table.dataTable tbody tr:not(:last-child) td {
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.grey-card.myproject-learners-detail table.dataTable td .image-text-wrapper {
+    display: flex;
+    align-items: center;
+    min-width: 160px;
+}
+
+.grey-card.myproject-learners-detail table.dataTable td .image-text-wrapper em {
+    height: 28px;
+    width: 28px;
+}
+
+.grey-card.myproject-learners-detail table.dataTable td .image-text-wrapper span {
+    font-size: 14px;
+    line-height: 1.43;
+    font-weight: 600;
+    color: #2F64FF;
+    margin-left: 7px;
+}
+
+/* custom tooltip css start */
+.more-actions-popup-wrapper a.more-actions-link {
+    padding: 0 8px;
+    display: inline-block;
+}
+
+.more-actions-popup-wrapper a.more-actions-link em svg path {
+    transition: all 0.3s;
+}
+
+.more-actions-popup-wrapper a.more-actions-link:hover em svg path {
+    fill: #2F64FF;
+}
+
+.more-actions-popup-wrapper {
+    position: relative;
+}
+
+.more-actions-popup-wrapper .custom-tooltip-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 15%);
+    transition: all 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    padding: 12px;
+    z-index: 4;
+}
+
+.more-actions-popup-wrapper.popup-visible .custom-tooltip-wrapper {
+    opacity: 1;
+    visibility: visible;
+}
+
+.more-actions-popup-wrapper .custom-tooltip-wrapper .actions-listing li a {
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 600;
+    color: #373737;
+    width: 100%;
+}
+
+.more-actions-popup-wrapper .custom-tooltip-wrapper .actions-listing li a:hover {
+    color: #2F64FF;
+}
+
+.more-actions-popup-wrapper .custom-tooltip-wrapper .actions-listing li + li {
+    margin-top: 12px;
+}
+
+.more-actions-popup-wrapper .custom-tooltip-wrapper .actions-listing li {
+    display: inline-flex;
+    width: 100%;
+}
+.more-actions-popup-wrapper .custom-tooltip-wrapper .actions-listing li.orange-link a:hover{
+    color: #ff4500;
+}
+
+.more-actions-popup-wrapper .custom-tooltip-wrapper .actions-listing {
+    padding: 5px 0;
+}
+
+/* custom tooltip css end */
+.grey-card.myproject-learners-detail .organizers-team-wrapper .title-wrapper .more-actions-popup-wrapper .custom-tooltip-wrapper {
+    left: 0;
+    right: auto;
+    padding: 0;
+}
+
+.grey-card.myproject-learners-detail .organizers-team-wrapper .title-wrapper .more-actions-popup-wrapper .custom-tooltip-wrapper .actions-listing li + li {
+    margin: 0;
+}
+
+.grey-card.myproject-learners-detail .organizers-team-wrapper .title-wrapper .more-actions-popup-wrapper .custom-tooltip-wrapper .actions-listing li {
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+    line-height: 1;
+}
+
+.grey-card.myproject-learners-detail .organizers-team-wrapper .title-wrapper .more-actions-popup-wrapper .custom-tooltip-wrapper .actions-listing li em {
+    flex: 0 0 20px;
+    max-width: 20px;
+    margin-right: 5px;
+}
+
+.grey-card.myproject-learners-detail table.dataTable .more-actions-popup-wrapper .custom-tooltip-wrapper {
+    padding: 0;
+}
+
+.grey-card.myproject-learners-detail table.dataTable .more-actions-popup-wrapper .custom-tooltip-wrapper .actions-listing li + li {
+    margin: 0;
+}
+
+.grey-card.myproject-learners-detail table.dataTable .more-actions-popup-wrapper .custom-tooltip-wrapper .actions-listing li {
+    padding: 10px 15px;
+}
+
+/* .grey-card.myproject-learners-detail table.dataTable.list-of-applicants-table .more-actions-popup-wrapper .custom-tooltip-wrapper {
+    width: 120px;
+} */
+
+.grey-card.myproject-learners-detail .submission-list {
+    display: flex;
+    margin: 0 -20px -40px;
+}
+
+.grey-card.myproject-learners-detail .submission-list .submission-item {
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 0 20px 40px;
+}
+
+.grey-card.myproject-learners-detail .submission-list .submission-item .submission-item-inner {
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.grey-card.myproject-learners-detail .submission-list .submission-item .submission-item-inner .white-card {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+
+.white-card.no-box-shadow {
+    box-shadow: none;
+}
+
+.grey-card.myproject-learners-detail .submission-list .submission-item .submission-item-inner .white-card .card-header-grey {
+    padding: 12px 12px;
+}
+
+.grey-card.myproject-learners-detail .submission-list .submission-item .submission-item-inner .white-card .card-header-grey .card-header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grey-card.myproject-learners-detail .submission-list .submission-item .submission-item-inner .white-card .card-header-grey .card-header-inner .title {
+    flex: 1;
+    padding-right: 10px;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #000;
+    font-weight: 400;
+}
+
+.grey-card.myproject-learners-detail .submission-list .submission-item .submission-item-inner .white-card .card-header-grey .card-header-inner .submission-actions {
+    position: relative;
+    z-index: 5;
+}
+
+.grey-card.myproject-learners-detail .submission-list .submission-item .submission-item-inner .white-card .card-header-grey .card-header-inner .submission-actions a {
+    position: relative;
+    z-index: 5;
+    margin-right: 12px;
+}
+
+.grey-card.myproject-learners-detail .submission-list .submission-item .submission-item-inner .white-card .card-header-grey .card-header-inner .submission-actions a.download-link {
+    display: inline-block;
+    min-width: 12px;
+}
+
+.grey-card.myproject-learners-detail .submission-list .submission-item .submission-item-inner .white-card .card-header-grey .card-header-inner .submission-actions a.external-link {
+    display: inline-block;
+    min-width: 16px;
+}
+
+.grey-card.myproject-learners-detail .submission-list .submission-item .submission-item-inner .white-card .card-body {
+    padding: 27px 16px 22px;
+}
+
+.grey-card.myproject-learners-detail .submission-list .submission-item .submission-item-inner .white-card .card-body em.file-type-icon {
+    display: block;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.grey-card.myproject-learners-detail .submission-list .submission-item .submission-item-inner .white-card .card-body em.file-type-icon img {
+    width: 68px;
+}
+
+.grey-card.myproject-learners-detail .submission-list .submission-item .submission-item-inner .white-card .card-body .filename {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #000;
+    font-weight: 600;
+}
+
+.grey-card.myproject-learners-detail .rating-info-wrapper {
+    margin-top: 40px;
+}
+
+.grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .rating-card.white-card .card-header-grey {
+    padding: 10px 12px;
+}
+
+.grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .rating-card.white-card .card-header-grey .header-title {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.grey-card.myproject-learners-detail .rating-info-wrapper .rating-system {
+    display: flex;
+    margin: 0 -20px -40px;
+}
+
+.grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .card-wrapper {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 0 20px 40px;
+}
+
+.grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .card-wrapper .rating-card.white-card {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+
+.grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .card-wrapper .rating-card.white-card .card-body {
+    padding: 11px 12px 12px;
+}
+
+.grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .card-wrapper .rating-card.white-card .card-body .rating-number-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+}
+
+.grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .card-wrapper .rating-card.white-card .card-body .rating-number-list li a {
+    line-height: 1;
+    font-size: 13px;
+    width: 20px;
+    height: 20px;
+    font-weight: bold;
+    border: 1px solid #2F64FF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .card-wrapper .rating-card.white-card .card-body .rating-number-list li.active.scale-1 a {
+    border-color: #ff4704;
+    color: #fff;
+    background-color: #ff4704;
+}
+
+.grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .card-wrapper .rating-card.white-card .card-body .rating-number-list li.active.scale-2 a {
+    border-color: #ff7222;
+    color: #fff;
+    background-color: #ff7222;
+}
+
+.grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .card-wrapper .rating-card.white-card .card-body .rating-number-list li.active.scale-3 a {
+    border-color: #f29e2b;
+    color: #fff;
+    background-color: #f29e2b;
+}
+
+.grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .card-wrapper .rating-card.white-card .card-body .rating-number-list li.active.scale-4 a {
+    border-color: #edc704;
+    color: #fff;
+    background-color: #edc704;
+}
+
+.grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .card-wrapper .rating-card.white-card .card-body .rating-number-list li.active.scale-5 a {
+    border-color: #e0f441;
+    color: #fff;
+    background-color: #e0f441;
+}
+
+.grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .card-wrapper .rating-card.white-card .card-body .rating-number-list li.active.scale-6 a {
+    border-color: #bbe670;
+    color: #fff;
+    background-color: #bbe670;
+}
+
+.grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .card-wrapper .rating-card.white-card .card-body .rating-number-list li.active.scale-7 a {
+    border-color: #9fdf78;
+    color: #fff;
+    background-color: #9fdf78;
+}
+
+.grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .card-wrapper .rating-card.white-card .card-body .rating-number-list li.active.scale-8 a {
+    border-color: #59d15a;
+    color: #fff;
+    background-color: #59d15a;
+}
+
+.grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .card-wrapper .rating-card.white-card .card-body .rating-number-list li.active.scale-9 a {
+    border-color: #279b25;
+    color: #fff;
+    background-color: #279b25;
+}
+
+.grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .card-wrapper .rating-card.white-card .card-body .rating-number-list li.active.scale-10 a {
+    border-color: #24841f;
+    color: #fff;
+    background-color: #24841f;
+}
+
+.grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .card-wrapper .rating-card.white-card .card-body .rating-number-list li+li {
+    margin-left: 2px;
+}
+
+.grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .card-wrapper .rating-card.white-card .card-body .form-group textarea.form-control {
+    height: 96px;
+}
+
+.grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .card-wrapper .rating-card.white-card .card-body .form-group {
+    margin-bottom: 0;
+}
+
+.grey-card.myproject-learners-detail .organizers-team-wrapper .title-wrapper .tooltip-wrapper a.custom-tooltip {
+    position: relative;
+    top: -9px;
+    width: 12px;
+    height: 12px;
+    left: -10px;
+}
+
+.grey-card.myproject-learners-detail .organizers-team-wrapper .title-wrapper .tooltip-wrapper h3 {
+    display: inline-block;
+}
+
+.grey-card.myproject-learners-detail .avg-rating-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -8px -16px;
+}
+
+.grey-card.myproject-learners-detail .avg-rating-list .card-wrapper {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 0 8px 16px;
+}
+
+.grey-card.myproject-learners-detail .average-ratings-wrapper .white-card.border-card .card-body {
+    padding: 16px 16px 24px;
+}
+
+.grey-card.myproject-learners-detail .average-ratings-wrapper .white-card.border-car .card-header-black {
+    padding: 12px 12px;
+}
+
+.grey-card.myproject-learners-detail .avg-rating-list .white-card .card-header-grey {
+    padding: 11px 12px;
+}
+
+.grey-card.myproject-learners-detail .evaluation-card-slider .slide-item.white-card>.card-header-grey {
+    padding-right: 165px;
+    position: relative;
+}
+
+.grey-card.myproject-learners-detail .evaluation-card-slider:after {
+    position: absolute;
+    content: '';
+    top: 1px;
+    right: 0;
+    height: 42px;
+    width: 165px;
+    background-color: #f5f5f5;
+    border-top-right-radius: 8px;
+    z-index: 2;
+}
+
+.grey-card.myproject-learners-detail .avg-rating-list .white-card .card-header-grey .header-title, 
+.grey-card.myproject-learners-detail .evaluation-card-slider .slide-item.white-card .card-header-grey .header-title {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.grey-card.myproject-learners-detail .average-ratings-wrapper, .grey-card.myproject-learners-detail .evaluation-slider-block:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.grey-card.myproject-learners-detail .evaluation-card-slider .slide-item.white-card .card-body {
+    padding: 16px 16px 48px;
+}
+
+.grey-card.myproject-learners-detail .evaluation-card-slider .slide-item.white-card {
+    border: 0;
+}
+
+
+
+
+.evaluation-slider-block .evaluation-card-slider {
+    margin-bottom: 0;
+    border: 1px solid #b9b8b8;
+    border-radius: 8px;
+}
+.evaluation-slider-block .engagement-stats-slider .slick-list,
+.evaluation-slider-block .evaluation-card-slider .slick-list{
+    border-radius: 8px;
+}
+
+.evaluation-slider-block .slick-dots {
+    bottom: 15px;
+    line-height: 1;
+}
+
+.evaluation-slider-block .slick-dots li.slick-active button {
+    background-color: #2F64FF;
+}
+
+.evaluation-slider-block .slick-dots li+li {
+    margin-left: 2px;
+}
+
+.evaluation-slider-block .engagement-stats-slider .slick-disabled,
+.evaluation-slider-block .evaluation-card-slider .slick-disabled {
+    display: block !important;
+}
+
+.evaluation-slider-block .engagement-stats-slider .slick-next,
+.evaluation-slider-block .evaluation-card-slider .slick-next {
+    top: 10px;
+    transform: none;
+    right: 16px;
+    font-size: 14px;
+    color: #2F64FF;
+    font-weight: 600;
+    width: 75px;
+    height: auto;
+    background-image: none !important;
+    padding-left: 10px;
+    background-color: #f5f5f5;
+}
+
+.evaluation-slider-block .engagement-stats-slider .slick-prev,
+.evaluation-slider-block .evaluation-card-slider .slick-prev {
+    top: 10px;
+    transform: none;
+    right: 85px;
+    left: auto;
+    font-size: 14px;
+    color: #2F64FF;
+    font-weight: 600;
+    width: 75px;
+    height: auto;
+    background-image: none !important;
+    padding-right: 10px;
+    background-color: #f5f5f5;
+}
+
+.evaluation-slider-block .engagement-stats-slider .slick-arrow,
+.evaluation-slider-block .evaluation-card-slider .slick-arrow {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+.evaluation-slider-block .engagement-stats-slider .slick-arrow em,
+.evaluation-slider-block .evaluation-card-slider .slick-arrow em {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.evaluation-slider-block .engagement-stats-slider .slick-arrow em svg,
+.evaluation-slider-block .evaluation-card-slider .slick-arrow em svg {
+    height: 24px;
+    margin: 0 auto;
+}
+
+.evaluation-slider-block .engagement-stats-slider .slick-prev.slick-disabled, .evaluation-slider-block .engagement-stats-slider .slick-next.slick-disabled,
+.evaluation-slider-block .evaluation-card-slider .slick-prev.slick-disabled, .evaluation-slider-block .evaluation-card-slider .slick-next.slick-disabled {
+    color: #b9b8b8;
+    pointer-events: none;
+}
+.evaluation-slider-block .engagement-stats-slider .slick-prev.slick-disabled svg path,.evaluation-slider-block .engagement-stats-slider .slick-next.slick-disabled svg path,
+.evaluation-slider-block .evaluation-card-slider .slick-prev.slick-disabled svg path, .evaluation-slider-block .evaluation-card-slider .slick-next.slick-disabled svg path {
+    fill: #b9b8b8;
+}
+
+.average-ratings-wrapper .avg-rating-list .rating-number-wrapper {
+    margin-bottom: 0;
+}
+
+.grey-card.myproject-learners-detail .average-ratings-wrapper  .avg-rating-list .white-card.rating-card {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+
+.grey-card.myproject-learners-detail .average-ratings-wrapper  .avg-rating-list .white-card.rating-card .card-body {
+    padding: 10px 16px 24px;
+}
+
+.grey-card.myproject-learners-detail .avg-rating-list .white-card.rating-card .card-body {
+    padding: 12px 12px 12px;
+}
+
+.grey-card.myproject-learners-detail  table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
+    border: none;
+    content: '';
+    border-radius: 50%;
+    box-shadow: none;
+    height: 16px;
+    width: 16px;
+    box-sizing: border-box;
+    transition: all 0.3s;
+    left: 11px;
+    background-image: url(../images/blue-border-plus.svg);
+    background-repeat: no-repeat;
+    background-size: 16px;
+}
+
+.grey-card.myproject-learners-detail  table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td.dtr-control:before {
+    background-image: url(../images/blue-border-minus.svg);
+}
+
+.grey-card.myproject-learners-detail .submissions-block .submission-btn-wrapper{
+    margin-top: 40px;
+    text-align: right;
+}
+
+
+/* tooltip in number ratings */
+.grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .card-wrapper .rating-card.white-card .card-body .rating-number-list li{
+    position: relative;
+}
+.custom-tooltip-wrapper.rating-info-tooltip p{
+	font-size: 14px;
+	line-height: 1.43;
+	color: #1B2125;
+}
+.custom-tooltip-wrapper.rating-info-tooltip .white-card{
+    padding: 12px;
+}
+
+
+@media(max-width:1366px) {
+    .grey-card.myproject-learners-detail .rating-info-wrapper .rating-system {
+        margin: 0 -12px -24px;
+    }
+
+    .grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .card-wrapper {
+        padding: 0 12px 24px;
+    }
+
+}
+
+@media(max-width:1199px) {
+    .grey-card.myproject-learners-detail .custom-accordion-wrapper.submissions-block:not(:last-of-type) {
+        margin-bottom: 35px;
+    }
+
+    .grey-card.myproject-learners-detail .submission-list .submission-item {
+        padding: 0 12px 24px;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .grey-card.myproject-learners-detail .submission-list {
+        margin: 0 -12px -24px;
+        flex-wrap: wrap;
+    }
+
+    .grey-card.myproject-learners-detail .rating-info-wrapper .rating-system {
+        flex-wrap: wrap;
+    }
+
+    .grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .card-wrapper {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .card-wrapper .rating-card.white-card .card-body .rating-number-list {
+        justify-content: center;
+    }
+
+    .grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .card-wrapper .rating-card.white-card .card-body .rating-number-list li+li {
+        margin-left: 10px;
+    }
+
+}
+
+@media(max-width:991px) {
+    .grey-card.myproject-learners-detail .submission-list .submission-item, .grey-card.myproject-learners-detail .avg-rating-list .card-wrapper {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+    .grey-card.myproject-learners-detail table.dataTable.team-listing-table .table-actions{
+        width: 140px !important;
+    }
+
+}
+
+@media(max-width:767px) {
+    .grey-card.myproject-learners-detail {
+        padding: 24px 16px;
+    }
+
+    .grey-card.myproject-learners-detail .back-link {
+        margin-bottom: 18px;
+    }
+
+    .grey-card.myproject-learners-detail .organizers-team-wrapper.has-right-col {
+        flex-wrap: wrap;
+    }
+
+    .grey-card.myproject-learners-detail .organizers-team-wrapper.has-right-col .title-block {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    /* .grey-card.myproject-learners-detail .organizers-team-wrapper.has-right-col .search-block {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-top: 15px;
+        display: none;
+    } */
+
+    .grey-card.myproject-learners-detail .custom-accordion-wrapper .organizers-team-wrapper .title-wrapper .more-actions-popup-wrapper .custom-tooltip-wrapper {
+        left: auto !important;
+        right: -50px;
+        top: 22px;
+    }
+
+    /* .grey-card.myproject-learners-detail .custom-accordion-wrapper.is-open .organizers-team-wrapper.has-right-col .search-block {
+        display: block;
+    } */
+
+    /* .grey-card.myproject-learners-detail .organizers-team-wrapper.has-right-col .form-group.has-search-btn {
+        min-width: auto;
+    } */
+
+    .grey-card.myproject-learners-detail .submission-list .submission-item, .grey-card.myproject-learners-detail .avg-rating-list .card-wrapper {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .card-wrapper {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .evaluation-slider-block .evaluation-card-slider .slick-dots {
+        bottom: 10px;
+    }
+    .grey-card.myproject-learners-detail table.dataTable .title-col{
+        min-width: 150px !important;
+    }
+    .grey-card.myproject-learners-detail table.dataTable .name-col{
+        width: 250px !important;
+    }
+    .grey-card.myproject-learners-detail .submissions-block .submission-btn-wrapper{
+        margin-top: 24px;
+    }
+
+}
+
+@media(max-width:575px) {
+    .grey-card.myproject-learners-detail .submission-list .submission-item, .grey-card.myproject-learners-detail .avg-rating-list .card-wrapper {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .grey-card.evaluation-wrapper .evaluation-slider-block .engagement-stats-slider .card-wrapper .rating-card.white-card>.card-header-grey,
+    .grey-card.evaluation-wrapper .evaluation-card-slider .slide-item.white-card>.card-header-grey,
+    .grey-card.myproject-learners-detail .evaluation-card-slider .slide-item.white-card>.card-header-grey {
+        padding: 40px 12px 10px 12px;
+    }
+
+    .evaluation-slider-block .engagement-stats-slider .slick-prev,
+    .evaluation-slider-block .evaluation-card-slider .slick-prev {
+        right: auto;
+        left: 0;
+    }
+
+    .evaluation-slider-block .engagement-stats-slider .slick-next,
+    .evaluation-slider-block .evaluation-card-slider .slick-next {
+        right: 0;
+    }
+    .grey-card.myproject-learners-detail .evaluation-card-slider:after{
+        display: none;
+    }
+
+}
+
+@media(max-width:425px) {
+    .grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .card-wrapper .rating-card.white-card .card-body .rating-number-list li+li {
+        margin-left: 5px;
+    }
+    /* .grey-card.myproject-learners-detail table.dataTable .name-col{
+        width: 180px !important;
+    } */
+
+}
+
+@media(max-width:375px) {
+    .grey-card.myproject-learners-detail .rating-info-wrapper .rating-system .card-wrapper .rating-card.white-card .card-body .rating-number-list li+li {
+        margin-left: 2px;
+    }
+
+}

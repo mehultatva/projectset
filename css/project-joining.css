@@ -1,0 +1,193 @@
+.project-joining-tab-wrapper.grey-card { border-radius: 16px; padding: 40px 15px 50px; }
+.project-joining-tab-wrapper .no-project-block { display: flex; align-items: center; justify-content: center; margin-bottom: 28px }
+.project-joining-tab-wrapper .no-project-block em { margin-right: 15px }
+.project-joining-tab-wrapper .no-project-block span { font-size: 32px; font-weight: 600; color: #747272 }
+.project-joining-tab-wrapper .project-joining-detail { max-width: 525px; margin: 0 auto }
+.project-joining-tab-wrapper .project-joining-detail h2 { margin-bottom: 32px; }
+.project-joining-tab-wrapper .tooltip-wrapper label a { position: relative; top: -5px; margin-left: 5px }
+.project-joining-tab-wrapper .form-row-wrapper .form-group .form-control { width: 200px }
+.project-joining-tab-wrapper .form-row-wrapper .form-group.half-width { display: flex; flex-wrap: wrap }
+.project-joining-tab-wrapper .form-row-wrapper .form-group.half-width label { max-width: 100%; flex: 0 0 100% }
+.project-joining-tab-wrapper .form-row-wrapper .form-group.half-width em { align-self: center; margin: 0 12px; font-size: 12px; color: #151515 }
+.project-joining-tab-wrapper .form-row-wrapper .form-group:last-child { margin-bottom: 0 }
+.project-joining-tab-wrapper .form-row-wrapper { margin-bottom: 50px }
+.project-joining-tab-wrapper  .btn-wrapper { margin-top: 42px; }
+.project-joining-tab-wrapper  .btn-wrapper .btn.primary-fill-btn { min-width: 100px; }
+.project-joining-tab-wrapper .radio-wrapper .tooltip-wrapper label a { margin-left: 2px; }
+.learners-join-modal .joining-date-wrapper { display: flex; margin: 0 -12px 27px; flex-wrap: wrap; }
+.learners-join-modal .joining-date-wrapper .form-group { padding: 0 12px; max-width: 50%; flex: 0 0 50%; }
+.learners-join-modal .modal-dialog .modal-content { background-color: #fff; }
+.learners-join-modal .modal-dialog .modal-content p { text-align: left; font-weight: 400; margin: 0 0 21px 0; padding-left: 26px; }
+.learners-join-modal .modal-dialog .modal-content .tooltip-wrapper { display: block; }
+.learners-join-modal.join-modal .modal-body .form-wrapper .form-group.radio-wrapper .inner-feild-wrapper .form-group { padding: 0; padding-left: 26px; margin-bottom: 21px; max-width: 76%; }
+.learners-join-modal.join-modal .modal-dialog .modal-footer .modal-btn-wrapper .create-btn { min-width: 100px; }
+.learners-join-modal .modal-dialog .modal-header h4 { font-size: 24px; }
+.learners-join-modal .join-modal .modal-body .form-wrapper { margin-top: 24px; }
+.learners-join-modal  .radio-title { margin-bottom: 21px; }
+
+/* secondary radio*/
+.form-group.secondary.radio-wrapper label:before { height: 18px; width: 18px }
+.form-group.secondary.radio-wrapper label { min-height: 18px; line-height: 18px; height: inherit; padding-left: 27px; }
+.form-group.secondary.radio-wrapper { margin-bottom: 18px; }
+.form-group.secondary.radio-wrapper label:after { height: 10px; width: 10px; left: 4px; top: 4px; background: #2f64ff }
+.learners-join-modal .modal-body .question-feild-wrapper .form-group { padding-left: 26px; padding-right: 26px; }
+.learners-join-modal .modal-body .question-feild-wrapper .custom-dropdown { max-width: 50%; }
+.learners-join-modal .modal-body .question-block { position: relative; }
+.learners-join-modal .modal-body .question-no { position: absolute; left: 0; font-size: 14px; font-weight: 600; }
+.learners-join-modal .blue-text { display: flex; color: #2f64ff; cursor: pointer; font-size: 14px; font-weight: 600; margin-top: 30px; }
+.learners-join-modal .blue-text em { line-height: 0; margin-right: 10px; }
+.learners-join-modal .cancel-btn { position: absolute; right: -10px; top: -5px; width: 20px; height: 20px; }
+
+/* organizers css */
+.organizers-team-wrapper .title-wrapper { display: flex; align-items: center; }
+.organizers-team-wrapper .title-wrapper h3 { margin-right: 15px; margin-bottom: 0; }
+.teams-info-wrapper  .organizers-team-wrapper .title-wrapper h3 { margin-left: 0 !important;}
+.organizers-team-wrapper .filter-outer-wrapper { display: flex; justify-content: space-between; margin-bottom: 14px;}
+.organizers-team-wrapper .filter-outer-wrapper>ul { display: flex; }
+.organizers-team-wrapper .filter-outer-wrapper>ul li+li { margin-left: 20px; }
+.organizers-team-wrapper .filter-outer-wrapper .filter-inner-wrapper { display: flex; }
+.organizers-team-wrapper .filter-outer-wrapper .filter-inner-wrapper .form-group { margin-bottom: 0; margin-left: 20px; }
+.organizers-team-wrapper .filter-outer-wrapper .filter-inner-wrapper .form-group.custom-dropdown{min-width: 280px;}
+.organizers-team-wrapper .filter-outer-wrapper .filter-inner-wrapper .form-group.has-search-btn label { display: none; }
+.teams-info-wrapper .team-listing-table .action-listing { display: flex;}
+.teams-info-wrapper .team-listing-table .action-listing>li { max-width: 50px;flex: 0 0 50px;}
+.teams-info-wrapper .team-listing-table .action-listing a em svg path { transition: all 0.3s; }
+.teams-info-wrapper .team-listing-table .action-listing a:hover em svg path { fill: #2F64FF; }
+.teams-info-wrapper .table-wrapper { background-color:#fff}
+.teams-info-wrapper .team-listing-table .action-listing .badge-wrapper { position: relative;}
+.teams-info-wrapper .team-listing-table .action-listing .badge {
+    position: absolute;
+    right: -9px;
+    top: -5px;
+    border-radius: 50%;
+    font-size: 10px;
+    display: flex;
+    height: 16px;
+    width: 16px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.teams-info-wrapper table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
+	border: none;
+	content: '';
+	border-radius: 50%;
+	box-shadow: none;
+	height: 16px;
+	width: 16px;
+	box-sizing: border-box;
+	transition: all 0.3s;
+	left: 11px;
+	background-image: url('../images/blue-border-plus.svg');
+	background-repeat: no-repeat;
+	background-size: 16px;
+    font-weight: 400;
+}
+
+.teams-info-wrapper table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td.dtr-control:before {
+	background-image: url('../images/blue-border-minus.svg');
+}
+.teams-info-wrapper .team-listing-table .action-listing .badge.black-badge { background-color: #151515; }
+.teams-info-wrapper .more-actions-popup-wrapper .custom-tooltip-wrapper .actions-listing li { text-align: left;}
+.grey-card.myproject-learners-detail table.dataTable td .image-text-wrapper.has-team-profiles em{ margin-right: 10px;margin-bottom: 10px;}
+.grey-card.myproject-learners-detail table.dataTable td .image-text-wrapper.has-team-profiles em:last-child { margin-right: 0;}
+.grey-card.myproject-learners-detail table.dataTable td .image-text-wrapper.has-team-profiles { margin-bottom: -10px;flex-wrap: wrap;}
+.grey-card.myproject-learners-detail table.dataTable td .image-text-wrapper em { border-radius:50%;min-width: 28px;}
+.grey-card.myproject-learners-detail table.dataTable td .image-text-wrapper em img { height: 100%;width: 100%;border-radius: 50%;object-fit: cover;}
+.project-organizers-page.master-layout-wrapper .title-wrapper.has-right-col .right-col .btn { min-width: 128px; }
+.project-application-popup .modal-dialog .modal-content { background-color: #fff;border-radius: 4px;box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);}
+.project-application-popup .modal-dialog .title-wrapper { display: flex;align-items: center;}
+.project-application-popup .modal-dialog .title-wrapper h4{ margin-right: 20px;}
+.project-application-popup .modal-dialog .title-wrapper a { padding: 10px;margin: -10px;}
+.project-application-popup .modal-dialog .modal-body { padding: 0 20px 40px;}
+.project-application-popup .modal-dialog .modal-body .card-body { padding: 0;}
+.project-application-popup .modal-dialog .modal-body .card-body .profile-listing li.white-card{box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);border-left-width: 4px;border-radius: 4px; }
+.project-application-popup .modal-dialog .modal-body .card-body .profile-listing li {
+    padding: 12px 45px 12px 14px;
+    position: relative;
+}
+.grey-card.myproject-learners-detail table.dataTable tbody tr td.child { padding: 8px 10px;}
+.grey-card.myproject-learners-detail table.dataTable>tbody>tr.child span.dtr-title { display: block;margin-bottom: 10px;}
+.grey-card.myproject-learners-detail table.dataTable>tbody>tr.child ul.dtr-details { display: block;}
+.grey-card.myproject-learners-detail table.dataTable tr.child .more-actions-popup-wrapper .custom-tooltip-wrapper { left: 0;right: auto;width: 160px;}
+.project-application-popup .modal-dialog .modal-body .card-body .profile-listing li span { font-size: 12px;color:#2F64FF}
+.project-application-popup .modal-dialog .modal-body .card-body .profile-listing li p { font-weight: 600;color:#747272}
+.project-application-popup .modal-dialog .modal-body .card-body .profile-listing li .user-profile { border:1px solid #B9B8B8}
+.project-application-popup .modal-dialog .modal-body .card-body .profile-listing li .more-actions-link svg path{fill: #2F64FF;}
+.project-application-popup .modal-dialog .modal-body .card-body .profile-listing li .more-actions-popup-wrapper {position: absolute;top: 50%;right: 23px;transform: translateY(-50%);z-index: 1;}
+.project-application-popup .modal-dialog .modal-body .card-body .profile-listing li+li { margin-top: 20px;}
+.project-application-popup .modal-dialog .modal-body .card-body .profile-listing li .user-profile img { width: 100%;height: 100%;object-fit: cover;}
+.project-application-popup .modal-dialog .modal-body { padding: 0 15px 40px;}
+.project-application-popup .more-actions-popup-wrapper .custom-tooltip-wrapper { padding: 0;}
+.project-application-popup .more-actions-popup-wrapper .custom-tooltip-wrapper .actions-listing li { padding: 10px 15px !important;position: static !important;}
+.project-application-popup .more-actions-popup-wrapper .custom-tooltip-wrapper .actions-listing li+li { margin-top: 0px !important;}
+.project-application-popup .more-actions-popup-wrapper .custom-tooltip-wrapper  { width: 140px;}
+.project-application-popup .modal-dialog .modal-body .card-body .profile-listing li .more-actions-popup-wrapper.popup-visible { z-index: 2;}
+.project-application-popup .modal-header .more-actions-popup-wrapper .custom-tooltip-wrapper { width: 180px;left: 0;}
+.project-application-popup .more-actions-popup-wrapper .custom-tooltip-wrapper .actions-listing li a { padding: 0;margin: 0;}
+.project-application-popup .modal-header .more-actions-popup-wrapper .custom-tooltip-wrapper .actions-listing li a {display: flex;align-items: center;}
+.project-application-popup .modal-header .more-actions-popup-wrapper .custom-tooltip-wrapper .actions-listing li a em { margin-right: 6px;}
+.project-application-popup .more-actions-popup-wrapper .custom-tooltip-wrapper .actions-listing li { padding: 10px 12px !important;}
+/* media */
+@media (min-width:1200px) {
+    .learners-join-modal .modal-dialog .modal-header { padding-top: 69px; padding-bottom: 40px; }
+    .project-application-popup .modal-dialog .modal-header {padding: 71px 23px 35px;}
+    .project-application-popup .modal-dialog .modal-body { padding: 0 23px 100px;}
+    .project-application-popup .modal-dialog .title-wrapper h4 { font-size: 24px;}
+}
+@media (min-width:768px) {
+    .learners-join-modal .modal-dialog .modal-header button { top: 33px; right: 36px; background-size: 23px !important; }
+    .project-application-popup .modal-dialog .modal-header button { top: 33px; right: 36px; background-size: 23px !important; }
+}
+
+@media(max-width:1199px) {
+    .project-joining-tab-wrapper .no-project-block span { font-size: 28px }
+    .project-joining-tab-wrapper .project-joining-detail h2 { margin-bottom: 25px; }
+    .project-joining-tab-wrapper .form-row-wrapper { margin-bottom: 40px; }
+    .project-joining-tab-wrapper .no-project-block { margin-bottom: 25px; }
+    .project-joining-tab-wrapper .btn-wrapper { margin-top: 30px; }
+    .project-joining-tab-wrapper.grey-card { padding: 25px 15px; }
+}
+@media(max-width:991px) {
+    .organizers-team-wrapper .filter-outer-wrapper { flex-wrap: wrap;}
+    .organizers-team-wrapper .filter-outer-wrapper .filter-inner-wrapper { max-width: 100%;flex: 0 0 100%;margin-top: 15px;}
+    .organizers-team-wrapper .filter-outer-wrapper .filter-inner-wrapper .form-group:first-child { margin-left: 0;}
+    .teams-info-wrapper .team-listing-table .action-listing>li { max-width: 35px;flex: 0 0 35px;}
+    .grey-card.myproject-learners-detail table.dataTable td .image-text-wrapper em{ margin-right: 5px;}
+}
+@media(max-width:767px) {
+    .project-joining-tab-wrapper .no-project-block span { font-size: 22px }
+    .project-joining-tab-wrapper .project-joining-detail h2 { margin-bottom: 15px; }
+    .project-joining-tab-wrapper .form-row-wrapper { margin-bottom: 30px; }
+    .project-joining-tab-wrapper .no-project-block { margin-bottom: 15px; }
+    .project-joining-tab-wrapper .btn-wrapper { margin-top: 20px; }
+    .project-joining-tab-wrapper.grey-card { padding: 15px; }
+    .project-application-popup .modal-dialog .modal-body .card-body .profile-listing li .more-actions-popup-wrapper { right: 0;}
+    .project-application-popup .modal-dialog .modal-body .card-body .profile-listing li { padding: 12px 25px 12px 14px;}
+    .grey-card.myproject-learners-detail table.dataTable td { padding: 8px 10px !important;}
+    .grey-card.myproject-learners-detail .organizers-team-wrapper .title-wrapper .more-actions-popup-wrapper .custom-tooltip-wrapper { left: -30px !important;}
+}
+@media(max-width:575px) {
+    .project-joining-tab-wrapper .form-row-wrapper .form-group .form-control { width: 100%; }
+    .teams-info-wrapper .team-listing-table .action-listing { min-width: 140px;}
+    .grey-card.myproject-learners-detail table.dataTable td .image-text-wrapper { min-width: inherit !important;}
+    .project-joining-tab-wrapper .form-row-wrapper .form-group.half-width em { margin: 12px 0; }
+    .project-joining-tab-wrapper .no-project-block span { font-size: 18px; min-width: 100%; flex: 0 0 100%; text-align: center; }
+    .project-joining-tab-wrapper .no-project-block { flex-wrap: wrap; justify-content: center; }
+    .project-joining-tab-wrapper .no-project-block em { margin-right: 0; }
+    .project-joining-tab-wrapper .no-project-block em img { width: 70px; }
+    .learners-join-modal .joining-date-wrapper { margin: 0; }
+    .learners-join-modal .joining-date-wrapper .form-group { flex: 0 0 100%; max-width: 100%; padding: 0; }
+    .learners-join-modal.join-modal .modal-body .form-wrapper .form-group.radio-wrapper .inner-feild-wrapper .form-group { max-width: 100%; }
+    .learners-join-modal .modal-body .question-feild-wrapper .custom-dropdown { max-width: 100%; }
+    .organizers-team-wrapper .filter-outer-wrapper .filter-inner-wrapper .form-group { max-width: 100%;flex: 0 0 100%;margin-left: 0;}
+    .organizers-team-wrapper .filter-outer-wrapper .filter-inner-wrapper .form-group+.form-group { margin-top: 15px;}
+    .organizers-team-wrapper .filter-outer-wrapper .filter-inner-wrapper {flex-wrap: wrap;}
+    .organizers-team-wrapper .filter-outer-wrapper>ul { flex-wrap: wrap;max-width: 100%;flex: 0 0 100%;}
+    .organizers-team-wrapper .filter-outer-wrapper>ul>li { max-width: 100%;flex: 0 0 100%;}
+    .organizers-team-wrapper .filter-outer-wrapper>ul>li+li { margin-left: 0;margin-top: 15px;}
+    .organizers-team-wrapper .filter-outer-wrapper>ul>li .btn { width: 100%;}
+    .project-application-popup .modal-header .more-actions-popup-wrapper .custom-tooltip-wrapper { left: -120px;}
+    .organizers-team-wrapper .filter-outer-wrapper .filter-inner-wrapper .form-group.custom-dropdown{min-width: auto;}
+}

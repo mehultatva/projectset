@@ -1,0 +1,133 @@
+/* My Projects Deliverables css start */
+.grey-card.deliverable-wrapper{
+    padding: 36px 27px;
+}
+.deliverable-wrapper .deliverables-list .title-wrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    padding: 0;
+}
+.deliverable-wrapper .deliverables-list .title-wrapper h2{
+   margin: 0 8px 0 0;
+}
+.deliverable-wrapper .deliverables-list .title-wrapper .action-link{
+    padding: 0 5px 3px;
+}
+.deliverable-wrapper .deliverables-list .title-wrapper .action-link.disabled em svg path{
+    fill: #747272;
+}
+.deliverable-wrapper .deliverables-list .deliverables-text-block .text-block-listing{
+   display: flex;
+   justify-content: space-between; 
+   align-items: center;
+}
+.deliverable-wrapper .deliverables-list .deliverables-text-block .text-block-listing .text-block{
+    flex: 1;
+    padding-right: 16px;
+}
+.deliverable-wrapper .deliverables-list .deliverables-text-block .text-tooltip-block{
+    flex: 0 0 20px;
+    max-width: 20px;
+}
+.deliverable-wrapper .deliverables-list .deliverables-text-block .text-block-listing .text-block .title{
+    font-weight: 700;
+    color: #151515;
+    font-size: 14px;
+    line-height: 1.43;
+    margin-bottom: 5px;
+}
+.deliverable-wrapper .deliverables-list .deliverables-text-block .text-block-listing .text-block p+p{
+    margin-top: 5px;
+}
+.deliverable-wrapper .deliverables-list .deliverables-text-block .white-card .card-body{
+    padding: 12px 11px 12px 16px;
+    border-radius: 8px;
+}
+.deliverable-wrapper .deliverables-list .text-tooltip-block .more-actions-popup-wrapper .more-actions-link {
+    padding: 0 5px;
+}
+.deliverable-wrapper .deliverables-list .deliverables-text-block .white-card{
+    box-shadow: none;
+}
+.deliverable-wrapper .deliverables-list .deliverables-text-block .white-card + .white-card {
+    margin-top: 16px;
+}
+.deliverable-wrapper .deliverables-list .more-actions-popup-wrapper {
+    text-align: right;
+}
+.deliverable-wrapper .deliverables-list .more-actions-popup-wrapper a svg path{
+    transition: all 0.5s;
+}
+.deliverable-wrapper .deliverables-list .more-actions-popup-wrapper a:hover svg path{
+    fill: #2F64FF;
+}
+.deliverable-wrapper .deliverables-list .more-actions-popup-wrapper .custom-tooltip-wrapper{
+    top: 100%;
+    width: 140px;
+}
+.deliverable-wrapper .deliverables-list + .deliverables-list ,
+.deliverable-wrapper .deliverables-list + .public-voting-block{
+    margin-top: 46px;
+}
+.deliverable-wrapper .deliverables-list.judging-criteria .title-wrapper{
+    margin-bottom: 15px;
+}
+.deliverable-wrapper .deliverables-list.judging-criteria .title-descritption{
+    margin-bottom: 30px;
+}
+.deliverable-wrapper .deliverables-list.judging-criteria .title-descritption .blue-link{
+    text-decoration: underline;
+}
+.deliverable-wrapper .public-voting-block h2{
+    margin-bottom: 24px;
+}
+.deliverable-wrapper .public-voting-block .form-switch-wrapper .form-switch .form-check-label p{
+   font-weight: 400;
+}
+.deliverable-wrapper .public-voting-block .form-switch-wrapper .form-switch .form-check-label p strong{
+    font-weight: 700;
+}
+.deliverable-wrapper .public-voting-block .form-switch-wrapper .form-switch .switch-wrapper{
+    flex: 0 0 44px;
+    max-width: 44px;
+}
+@media(max-width:767px){
+    .grey-card.deliverable-wrapper{
+        padding: 24px 16px;
+    }
+    .deliverable-wrapper .deliverables-list .title-wrapper,
+    .deliverable-wrapper .deliverables-list.judging-criteria .title-descritption{
+        margin-bottom: 16px;
+    }
+    .deliverable-wrapper .public-voting-block h2{
+        margin-bottom: 12px;
+    }
+    .deliverable-wrapper .deliverables-list + .deliverables-list, .deliverable-wrapper .deliverables-list + .public-voting-block{
+        margin-top: 36px;
+    }
+    .deliverable-wrapper .deliverables-list.judging-criteria .title-wrapper{
+        margin-bottom: 8px;
+    }
+    .deliverable-wrapper .deliverables-list .deliverables-text-block .text-block-listing{
+        position: relative;
+    }
+    .deliverable-wrapper .deliverables-list .deliverables-text-block .text-block-listing .text-block{
+        padding-right: 0;
+    }
+    .deliverable-wrapper .deliverables-list .deliverables-text-block .text-block-listing .text-block .title{
+        padding-right: 45px;
+    }
+    .deliverable-wrapper .deliverables-list .deliverables-text-block .text-tooltip-block{
+        position: absolute;
+        right: 11px;
+        top: -8px;
+    }
+    .deliverable-wrapper .deliverables-list .text-tooltip-block .more-actions-popup-wrapper .more-actions-link{
+        transform: rotate(90deg);
+    }
+    .deliverable-wrapper .deliverables-list .more-actions-popup-wrapper .custom-tooltip-wrapper{
+        right: -10px;
+        top: calc(100% - 8px);
+    }
+}

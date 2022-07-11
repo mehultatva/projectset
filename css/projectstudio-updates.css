@@ -1,0 +1,247 @@
+.project-studio-page-wrapper .updates-tab-wrapper>.white-card{
+    padding: 12px;
+}
+.project-studio-page-wrapper .updates-tab-wrapper>.white-card>.card-body{
+    padding: 0;
+}
+.project-studio-page-wrapper .updates-tab-wrapper .btn-wrapper.older-updates-btn-wrapper{
+    justify-content: center;
+    margin: 24px 0 0;
+}
+.project-studio-page-wrapper .updates-tab-wrapper .btn-wrapper.older-updates-btn-wrapper a{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+.project-studio-page-wrapper .updates-tab-wrapper .updates-filter-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.project-studio-page-wrapper .updates-tab-wrapper .updates-filter-block .form-group{
+    margin: 0;
+}
+.project-studio-page-wrapper .updates-tab-wrapper .updates-filter-block .form-group label{
+    display: none;
+}
+.project-studio-page-wrapper .updates-tab-wrapper .updates-filter-block .filter-inner-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.project-studio-page-wrapper .updates-tab-wrapper .updates-filter-block .filter-inner-wrapper .form-group{
+    flex: 0 0 calc(50% - 10px);
+    max-width: calc(50% - 10px);
+}
+.project-studio-page-wrapper .updates-tab-wrapper .updates-filter-block .filter-inner-wrapper .form-group + .form-group{
+    margin-left: 20px;
+}
+.project-studio-page-wrapper .updates-tab-wrapper .updates-filter-block .filter-outer-wrapper {
+    flex: 0 0 67%;
+    max-width: 67%;
+}
+.project-studio-page-wrapper .updates-tab-wrapper .updates-filter-block .btn-wrapper{
+    flex: 0 0 180px;
+    max-width: 180px;
+    justify-content: flex-end;
+    padding-left: 20px;
+    margin: 0;
+}
+.project-studio-page-wrapper .updates-tab-wrapper .update-wrapper:not(:last-child){
+    border-bottom: 1px solid #dbdbdb;
+}
+.project-studio-page-wrapper .updates-tab-wrapper .update-wrapper .update{
+    padding: 14px 12px 16px;
+    display: flex;
+}
+.project-studio-page-wrapper .updates-tab-wrapper .update-wrapper .update .update-icon{
+    flex: 0 0 40px;
+    max-width: 40px;
+}
+.project-studio-page-wrapper .updates-tab-wrapper .update-wrapper .update .update-icon .icon{
+    position: relative;
+    background-color: #F5F7FF;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-studio-page-wrapper .updates-tab-wrapper .update-wrapper .update .update-icon .icon:before{
+    position: absolute;
+    content: '';
+    top: 1px;
+    left: 2px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color:#FF4500;
+}
+.project-studio-page-wrapper .updates-tab-wrapper .update-wrapper.marked-read .update .update-icon .icon:before{
+    display: none;
+}
+.project-studio-page-wrapper .updates-tab-wrapper .update-wrapper .update .update-description{
+    padding: 0 15px;
+    flex: 1;
+}
+.project-studio-page-wrapper .updates-tab-wrapper .update-wrapper .update .update-actions{
+    flex: 0 0 150px;
+    max-width: 150px;
+    text-align: right;
+}
+.project-studio-page-wrapper .updates-tab-wrapper .update-wrapper .update .update-description p{
+    font-size: 14px;
+    line-height: 1.43;
+    color: #373737;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+.project-studio-page-wrapper .updates-tab-wrapper .update-wrapper .update .update-description p + p{
+    margin-top: 5px;
+}
+.project-studio-page-wrapper .updates-tab-wrapper .update-wrapper .update .update-description .timestamp{
+    margin-top: 5px;
+    color: #747272;
+}
+.project-studio-page-wrapper .updates-tab-wrapper .update-wrapper .update .update-description p .highlited-text{
+    font-weight: 600;
+    color: #373737;
+    display: inline;
+}
+.project-studio-page-wrapper .updates-tab-wrapper .update-wrapper .update .update-description p a{
+    font-weight: 600;
+    display: inline;
+}
+.project-studio-page-wrapper .updates-tab-wrapper .update-wrapper .update .update-actions .update-action-inner{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.project-studio-page-wrapper .updates-tab-wrapper .update-wrapper .update .update-actions .update-action-inner .mark-read-text{
+    font-size: 14px;
+    line-height: 1.43;
+    color: #373737;
+    font-weight: 600;
+    margin-right: 16px;
+}
+.project-studio-page-wrapper .updates-tab-wrapper .update-wrapper .update .update-actions .update-action-inner .star-msg img{
+    width: 24px;
+    height: auto;
+}
+.project-studio-page-wrapper .updates-tab-wrapper .update-wrapper.marked-read .update .update-actions .update-action-inner .mark-read-text{
+    display: none;
+}
+.project-studio-page-wrapper .custom-tabbing-wrapper .custom-nested-tabbing .custom-tab-heading ul li a.has-new-updates{
+    padding-left: 13px;
+}
+.project-studio-page-wrapper .custom-tabbing-wrapper .custom-nested-tabbing .custom-tab-heading ul li a.has-new-updates:before{
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background-color:#FF4500;
+}
+
+
+.projectstudio-page .title-wrapper .title-actions-wrapper .title-actions-inner .action-wrapper .actions-list .more-actions-popup-wrapper .custom-tooltip-wrapper .actions-listing li+li{
+    margin-left: 0;
+}
+.projectstudio-page .title-wrapper .title-actions-wrapper .title-actions-inner .action-wrapper .actions-list .more-actions-popup-wrapper .custom-tooltip-wrapper{
+    top: calc(100% + 5px);
+    right: auto;
+    left: 0;
+    width: 120px;
+}
+.all-team-members-modal .member-search-form{
+    display:flex;
+    flex-wrap: wrap;
+}
+.all-team-members-modal .member-search-form .form-group label{
+    display: none;
+}
+.all-team-members-modal .member-search-form .form-group.btn-wrapper{
+    flex:0 0 121px;
+    max-width: 121px;
+    padding-right:0;
+}
+.all-team-members-modal .member-search-form .form-group.btn-wrapper .primary-fill-btn{
+    min-width: 100%;
+}
+.all-team-members-modal .member-search-form .form-group {
+    padding-right:10px;
+    flex:calc(100% - 121px);
+    max-width:calc(100% - 121px);
+}
+.all-team-members-modal .member-search-form .form-group.has-search-btn{
+    flex:0 0 100%;
+    max-width: 100%;
+    padding-right:0;
+}
+.all-team-members-modal .member-info-block{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:991px){
+    .project-studio-page-wrapper .updates-tab-wrapper .updates-filter-block .filter-outer-wrapper{
+        flex: 0 0 calc(100% - 180px);
+        max-width: calc(100% - 180px);
+    }
+}
+@media(max-width:767px){
+    .project-studio-page-wrapper .updates-tab-wrapper .updates-filter-block{
+        flex-wrap: wrap;
+    }
+    .project-studio-page-wrapper .updates-tab-wrapper .updates-filter-block .btn-wrapper{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 20px 0 0;
+    }
+    .project-studio-page-wrapper .updates-tab-wrapper .updates-filter-block .filter-outer-wrapper{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media(max-width:575px){
+    .project-studio-page-wrapper .updates-tab-wrapper .updates-filter-block .filter-inner-wrapper{
+        flex-wrap: wrap;
+    }
+    .project-studio-page-wrapper .updates-tab-wrapper .updates-filter-block .filter-inner-wrapper .form-group{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .project-studio-page-wrapper .updates-tab-wrapper .updates-filter-block .filter-inner-wrapper .form-group + .form-group{
+        margin: 20px 0 0;
+    }
+    .project-studio-page-wrapper .updates-tab-wrapper .update-wrapper .update{
+        flex-wrap: wrap;
+        padding: 12px 8px;
+    }
+    .project-studio-page-wrapper .updates-tab-wrapper .update-wrapper .update .update-actions{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 5px 0 0 52px;
+    }
+    .project-studio-page-wrapper .updates-tab-wrapper .update-wrapper .update .update-actions .update-action-inner{
+        justify-content: flex-end;
+    }
+    .project-studio-page-wrapper .updates-tab-wrapper .update-wrapper .update .update-description{
+        padding: 0 0 0 12px;
+    }
+}

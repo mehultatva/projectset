@@ -1,0 +1,60 @@
+.grey-card.help-wrapper{
+    padding: 50px 50px 50px;
+}
+
+.grey-card.help-wrapper .help-form-wrapper .form-group:last-child{
+    margin-bottom: 0;
+}
+.grey-card.help-wrapper .help-form-wrapper .form-group label{
+    font-weight: 700;
+    font-size: 16px;
+    display: block;
+}
+.grey-card.help-wrapper .help-form-wrapper .form-group .custom-file-upload-wrapper{
+    position: relative;
+    display: inline-block;
+}
+.grey-card.help-wrapper .help-form-wrapper .form-group .custom-file-upload-wrapper .file-upload-input{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    appearance: none !important;
+    opacity: 0;
+    padding: 0 !important;
+    height: 40px !important;
+    line-height: 40px !important;
+    z-index: 2;
+    cursor: pointer;
+    display: block;
+}
+.grey-card.help-wrapper .help-form-wrapper .form-group .custom-file-upload-wrapper .file-upload-btn {
+    width: 162px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: relative;
+    z-index: 3; */
+}
+.grey-card.help-wrapper .help-form-wrapper .form-group .custom-file-upload-wrapper .file-upload-input:hover + .file-upload-btn{
+    background-color: #18009E;
+    border-color: #18009E;
+}
+.grey-card.help-wrapper .help-form-wrapper .form-group .custom-file-upload-wrapper .file-upload-btn .icon svg{
+    vertical-align: text-bottom;
+}
+.grey-card.help-wrapper .help-form-wrapper .form-group{
+    margin-bottom: 30px;
+}
+.grey-card.help-wrapper .help-form-wrapper .form-group .custom-file-upload-wrapper p.chosen-filename{
+    font-size: 16px;
+    font-weight: 400;
+    color: #151515;
+    margin-top: 8px;
+    word-break: break-word;
+}
+@media(max-width:767px){
+    .grey-card.help-wrapper{
+        padding: 36px 16px;
+    }
+}

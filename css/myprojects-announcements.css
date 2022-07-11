@@ -1,0 +1,119 @@
+.grey-card.announcements-wrapper{
+    padding: 36px 27px;
+}
+.grey-card.announcements-wrapper .announcements-list .title-wrapper{
+    padding: 0;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.grey-card.announcements-wrapper .announcements-list .title-wrapper h2{
+    margin: 0 8px 0 0;
+}
+.grey-card.announcements-wrapper .announcements-list .title-wrapper .action-link{
+    padding: 0 5px 3px;
+}
+.grey-card.announcements-wrapper .announcements-text-block .white-card{
+    box-shadow: none;
+}
+.grey-card.announcements-wrapper .announcements-text-block .white-card + .white-card{
+    margin-top: 18px;
+}
+.grey-card.announcements-wrapper .announcements-text-block .white-card .card-body{
+    padding: 12px 16px;
+}
+.grey-card.announcements-wrapper .announcements-text-block .white-card .card-body .title{
+    font-weight: 700;
+    color: #151515;
+    font-size: 14px;
+    line-height: 1.43;
+}
+.grey-card.announcements-wrapper .announcements-text-block .white-card .card-body  .text-block p+p{
+    margin-top: 5px;
+}
+.grey-card.announcements-wrapper .announcements-text-block .white-card .card-body .text-block .details.lineclamp-text p+p{
+    display: none;
+}
+.grey-card.announcements-wrapper .announcements-text-block .white-card .card-body .text-block .details:not(.lineclamp-text) p+p{
+    display: block;
+}
+.grey-card.announcements-wrapper .announcements-text-block .white-card .card-body .text-block .blue-link.expand-link{
+    font-weight: 700;
+    text-decoration: underline;
+    margin-top: 5px;
+}
+.grey-card.announcements-wrapper .announcements-text-block .white-card .card-body .text-block .lineclamp-text {
+    display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -moz-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;   
+  overflow: hidden;
+}
+.grey-card.announcements-wrapper .announcements-text-block .white-card .card-body .text-meta-block{
+    margin-top: 24px;
+}
+.grey-card.announcements-wrapper .announcements-text-block .white-card .card-body .text-meta-block .meta-listing{
+    display: flex;
+    align-items: center;
+}
+.grey-card.announcements-wrapper .announcements-text-block .white-card .card-body .text-meta-block .meta-listing .listing-item .item-inner{
+    display: flex;
+}
+.grey-card.announcements-wrapper .announcements-text-block .white-card .card-body .text-meta-block .meta-listing{
+    position: relative;
+    padding-right: 24px;
+    flex-wrap: wrap;
+    margin-top: -8px;
+}
+.grey-card.announcements-wrapper .announcements-text-block .white-card .card-body .text-meta-block .meta-listing .listing-item.is-last{
+    /* flex: 1; */
+    position: absolute;
+    right: 0;
+    bottom: 6px;
+    margin: 0;
+}
+.grey-card.announcements-wrapper .announcements-text-block .white-card .card-body .text-meta-block .meta-listing .listing-item.is-last .item-inner{
+    justify-content: flex-end;
+}
+.grey-card.announcements-wrapper .announcements-text-block .white-card .card-body .text-meta-block .meta-listing .listing-item:not(.is-last) .item-inner em.icon{
+    width: 18px;
+    margin-right: 5px;
+    flex: 0 0 18px;
+    max-width: 18px;
+}
+.grey-card.announcements-wrapper .announcements-text-block .white-card .card-body .text-meta-block .meta-listing .listing-item .item-inner em.icon.announcement-icon{
+    width: 20px;
+    flex: 0 0 20px;
+    max-width: 20px;
+}
+.grey-card.announcements-wrapper .announcements-text-block .white-card .card-body .text-meta-block .meta-listing .listing-item.is-last .item-inner em.icon,
+.grey-card.announcements-wrapper .announcements-text-block .white-card .card-body .text-meta-block .meta-listing .listing-item.is-last .item-inner em.icon img{
+    width: 14px;
+}
+.grey-card.announcements-wrapper .announcements-text-block .white-card .card-body .text-meta-block .meta-listing .listing-item .item-inner em.icon.calendar-icon img{
+    width: 16px;
+}
+.grey-card.announcements-wrapper .announcements-text-block .white-card .card-body .text-meta-block .meta-listing .listing-item .item-inner em.icon img{
+    /* vertical-align: text-bottom; */
+    vertical-align: inherit;
+}
+.grey-card.announcements-wrapper .announcements-text-block .white-card .card-body .text-meta-block .meta-listing .listing-item{
+    margin-top: 8px;
+    margin-right: 24px;
+}
+.grey-card.announcements-wrapper .announcements-text-block .white-card .card-body .text-meta-block .meta-listing .listing-item:last-child{
+    margin-right: 0;
+}
+.grey-card.announcements-wrapper .announcements-text-block .white-card .card-body .text-meta-block .meta-listing .listing-item.is-last .item-inner .item-link em.icon svg{
+    transition: all 0.3s;
+}
+.grey-card.announcements-wrapper .announcements-text-block .white-card .card-body .text-meta-block .meta-listing .listing-item.is-last .item-inner .item-link:hover em.icon svg path{
+    fill: #ff4500;
+}
+@media(max-width:767px){
+    .grey-card.announcements-wrapper{
+        padding: 24px 16px;
+    }
+}

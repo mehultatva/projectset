@@ -1,0 +1,183 @@
+
+.evaluation-block-wrapper+.evaluation-block-wrapper { margin-top: 100px; }
+.evaluation-block-wrapper>.white-card +.white-card { margin-top: 25px; }
+.evaluation-block-wrapper .title-link-wrapper { display: flex; justify-content: space-between; align-items: center; margin-bottom: 38px; }
+.evaluation-block-wrapper .title-link-wrapper .tooltip-wrapper h2 { color: #747272; display: inline-block; margin-bottom: 0; }
+.evaluation-block-wrapper .title-link-wrapper .tooltip-wrapper a { position: relative; top: -9px; width: 12px; height: 12px; left: 5px; }
+.evaluation-block-wrapper .title-link-wrapper .tooltip-wrapper a img { width: 100%; height: auto; vertical-align: top; }
+.evaluation-block-wrapper .title-link-wrapper .scroll-link { font-weight: 700; font-size: 14px; line-height: 1.43; }
+.evaluation-block-wrapper .title-link-wrapper.has-filter-dropdown { margin-bottom: 24px; }
+.evaluation-block-wrapper .title-link-wrapper.has-filter-dropdown .h2 { margin-bottom: 0; color: #373737; }
+.evaluation-block-wrapper .title-link-wrapper .dropdown-wrapper { flex: 0 0 368px; max-width: 368px; margin-left: 12px; }
+.evaluation-block-wrapper .white-card .card-header-grey .header-title .subtext { color: #747272; }
+.evaluation-block-wrapper .rating-card-slider { margin-top: 0;}
+.rating-card.white-card .card-body { padding: 8px 12px 24px; }
+.rating-card.white-card .card-body p { font-size: 12px; line-height: 1.67; }
+.rating-number-wrapper { margin: 0 auto 12px; display: flex; justify-content: center; align-items: center; font-weight: 700; height: 40px; width: 40px; border: 4px solid transparent; font-size: 12px; border-radius: 50%; color: #151515; }
+.torquiouse-border { border-color: #99DDFF; }
+.alert-green-border { border-color: #43FF9E; }
+.alert-orange-border { border-color: #FF8A00; }
+.alert-red-border { border-color: #FF4500; }
+.alert-gray-border { border-color: #B9B8B8; }
+.green-border { border-color: #00C15E; }
+.white-card .detail-stats { margin-top: 12px; }
+.white-card .detail-stats li { display: flex; justify-content: space-between; }
+.white-card .detail-stats li span { font-size: 12px; line-height: 1.67; color: #1B2125 }
+.white-card .detail-stats li span.value { font-weight: 700; margin-left: 5px; min-width: 20px; text-align: left; }
+.recommended-card-slider .white-card .badge-list { margin-top: 13px; }
+
+
+/* evaluation judge new design css start */
+.grey-card.evaluation-wrapper .title-wrapper{
+    padding: 0;
+    margin-bottom: 24px;
+}
+.grey-card.evaluation-wrapper .title-wrapper h2,
+.grey-card.evaluation-wrapper .title-wrapper .h2{
+    margin-bottom: 0;
+    text-align: left;
+    display: inline-block;
+    line-height: 1.6;
+    color: #151515;
+}
+.grey-card.evaluation-wrapper .title-wrapper .tooltip-wrapper a{
+    position: relative; top: -7px; width: 12px; height: 12px; left: 8px;
+}
+.grey-card.evaluation-wrapper .title-wrapper .tooltip-wrapper a img{
+    width: 100%; height: auto; vertical-align: top; 
+}
+.grey-card.evaluation-wrapper .average-ratings-wrapper:not(:last-child),
+.grey-card.evaluation-wrapper .evaluation-slider-block:not(:last-child){
+    margin-bottom: 40px;
+}
+.grey-card.evaluation-wrapper .average-ratings-wrapper .white-card.border-card>.card-body{
+    padding: 16px 16px 24px;
+}
+.grey-card.evaluation-wrapper .avg-rating-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -8px -16px;
+}
+.grey-card.evaluation-wrapper .avg-rating-list .card-wrapper{
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 0 8px 16px;
+}
+.grey-card.evaluation-wrapper .average-ratings-wrapper .avg-rating-list .white-card.rating-card .card-body{
+    padding: 10px 16px 24px;
+}
+.grey-card.evaluation-wrapper .evaluation-card-slider .slide-item.white-card{
+    border: 0;
+}
+.grey-card.evaluation-wrapper .evaluation-card-slider:after{
+    position: absolute;
+    content: '';
+    top: 1px;
+    right: 0;
+    height: 42px;
+    width: 165px;
+    background-color: #f5f5f5;
+    border-top-right-radius: 8px;
+    z-index: 2;
+}
+.grey-card.evaluation-wrapper .evaluation-card-slider .slide-item.white-card>.card-body{
+    padding: 16px 16px 48px;
+}
+.grey-card.evaluation-wrapper .avg-rating-list .white-card.rating-card .card-body{
+    padding: 12px 12px;
+}
+.evaluation-slider-block .engagement-stats-slider{
+    margin-bottom: 0;
+}
+.evaluation-slider-block .engagement-stats-slider .slick-dots{
+    bottom: -34px;
+}
+.evaluation-slider-block .white-card.engagement-stats-block>.card-body{
+    padding: 16px 16px 48px;
+}
+.grey-card.evaluation-wrapper .engagement-stats-block .avg-rating-list{
+    margin: 0;
+}
+.grey-card.evaluation-wrapper .engagement-stats-block .avg-rating-list .slick-list{
+    margin: 0 -8px -16px;
+}
+.grey-card.evaluation-wrapper .white-card .card-header-grey .header-title{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.grey-card.evaluation-wrapper .avg-rating-list .card-wrapper .detail-stats li{
+    justify-content: flex-start;
+}
+.grey-card.evaluation-wrapper .avg-rating-list .card-wrapper .detail-stats li span.value{
+    order: 1;
+    flex: 0 0 30px;
+    max-width: 30px;
+    margin: 0 5px 0 0;
+    line-height: 1.6;
+    color: #373737;
+}
+.grey-card.evaluation-wrapper .avg-rating-list .card-wrapper .detail-stats li span:not(.value){
+    order: 2;
+    line-height: 1.6;
+    color: #373737;
+    flex: 1;
+}
+.grey-card.evaluation-wrapper .evaluation-block-wrapper + .evaluation-block-wrapper{
+    margin-top: 84px;
+}
+.grey-card.evaluation-wrapper .average-ratings-wrapper .avg-rating-list.has-description .white-card.rating-card .card-body{
+    padding: 12px;
+}
+.grey-card.evaluation-wrapper .avg-rating-list .white-card .card-header-grey{
+    padding: 11px 12px;
+}
+.evaluation-slider-block .engagement-stats-slider .slick-list .slick-track{
+    margin-top: 5px;
+}
+
+
+/* evaluation judge new design css end */
+
+
+
+@media(max-width:991px) {
+    .evaluation-block-wrapper .title-link-wrapper { margin-bottom: 25px; }
+    .evaluation-block-wrapper .title-link-wrapper .dropdown-wrapper { flex: 0 0 320px; max-width: 320px; }
+    .evaluation-block-wrapper+.evaluation-block-wrapper {margin-top: 70px;}
+
+    /* evaluation judge new design css start */
+    .grey-card.evaluation-wrapper .avg-rating-list .card-wrapper{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+    /* evaluation judge new design css end */
+}
+@media(max-width:767px) {
+    .evaluation-block-wrapper .title-link-wrapper { flex-wrap: wrap; }
+    .evaluation-block-wrapper .title-link-wrapper .dropdown-wrapper { flex: 0 0 100%; max-width: 100%; margin: 0; }
+    .evaluation-block-wrapper .title-link-wrapper.has-filter-dropdown .h2 { margin-bottom: 16px; } 
+    .evaluation-block-wrapper+.evaluation-block-wrapper {margin-top: 50px;} 
+    /* evaluation judge new design css start */
+    .grey-card.evaluation-wrapper .avg-rating-list .card-wrapper{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .grey-card.evaluation-wrapper .evaluation-block-wrapper + .evaluation-block-wrapper{
+        margin-top: 40px;
+    }
+    .evaluation-slider-block .engagement-stats-slider .slick-dots{
+        bottom: -39px;
+    }
+    /* evaluation judge new design css end */
+}
+@media(max-width: 575px) {
+	.evaluation-block-wrapper .title-link-wrapper .tooltip-wrapper{order:2;}
+    .evaluation-block-wrapper .title-link-wrapper .scroll-link{order:1;align-self: flex-end;flex:0 0 100%;max-width: 100%;text-align: right;margin:0 0 10px;}
+    
+    /* evaluation judge new design css start */
+    .grey-card.evaluation-wrapper .avg-rating-list .card-wrapper{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    /* evaluation judge new design css end */
+}

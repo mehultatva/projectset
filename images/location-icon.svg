@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
+  <g id="location-icon" transform="translate(1 1)">
+    <path id="Path_78" data-name="Path 78" d="M12,13a3,3,0,1,0-3-3A3,3,0,0,0,12,13Z" transform="translate(-4 -2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_79" data-name="Path 79" d="M12,2a8,8,0,0,0-8,8,6.438,6.438,0,0,0,1.5,4.5L12,22l6.5-7.5A6.438,6.438,0,0,0,20,10a8,8,0,0,0-8-8Z" transform="translate(-4 -2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>
